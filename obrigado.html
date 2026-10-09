@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>You're in! — One-time offer inside</title>
+
+<!-- CONFIG — fill when Stripe + delivery are ready -->
+<script>
+window.TY = {
+  brand: "Penny Path",
+  accessUrl: "#REPLACE_ACCESS_URL",        // members area / download page
+  upsellStripe: "https://buy.stripe.com/14A5kD69N9mR2j56glfMA0Q",  // Savings Mega Vault one-time offer ($27)
+  priceUpsell: "27", priceUpsellAnchor: "67",
+  metaPixelId: "REPLACE_PIXEL_ID",
+  clarityId:   "REPLACE_CLARITY_ID",
+};
+</script>
+<script>
+(function(){ if(!window.TY.metaPixelId || window.TY.metaPixelId.indexOf("REPLACE")===0) return;
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', window.TY.metaPixelId); fbq('track', 'PageView');
+})();
+</script>
+<script>
+(function(){ if(!window.TY.clarityId || window.TY.clarityId.indexOf("REPLACE")===0) return;
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y)})(window,document,"clarity","script",window.TY.clarityId);
+})();
+</script>
+
+<style>
+:root{--ink:#10241b;--muted:#5b6b63;--line:#e6ece8;--green:#1f9d57;--green-d:#157a43;--gold:#d6a419;--cream:#fbf7ee;--soft:#eef7f1;--grad:linear-gradient(135deg,#1f9d57,#0f7a45)}
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);background:#fff;line-height:1.55;font-size:17px}
+img{max-width:100%;display:block}
+.wrap{max-width:620px;margin:0 auto;padding:0 18px}
+.center{text-align:center}.muted{color:var(--muted)}
+.btn{display:block;width:100%;background:var(--grad);color:#fff;border:none;border-radius:14px;padding:18px 20px;font-size:19px;font-weight:900;text-decoration:none;text-align:center;box-shadow:0 10px 24px rgba(31,157,87,.28);cursor:pointer;line-height:1.2}
+.btn small{display:block;font-weight:600;font-size:13px;opacity:.95;margin-top:4px}
+.btn.ghost{background:#fff;color:var(--muted);border:1px solid var(--line);box-shadow:none;font-size:15px;font-weight:700}
+h1{font-size:28px;line-height:1.15;font-weight:900;margin:12px 0 8px}
+h2{font-size:23px;line-height:1.2;font-weight:900;margin:8px 0}
+.bar{background:var(--grad);color:#fff;text-align:center;padding:16px;font-weight:800}
+.card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px;margin:14px 0}
+.pill{display:inline-block;background:#fff3cf;color:#8a6d12;border-radius:999px;padding:6px 14px;font-size:13px;font-weight:900;letter-spacing:.3px}
+.offer{border:2px solid var(--gold);border-radius:20px;overflow:hidden;margin:16px 0;box-shadow:0 14px 40px rgba(214,164,25,.16)}
+.offer .top{background:linear-gradient(135deg,#f4c430,#d6a419);color:#3b2f06;padding:16px 18px;text-align:center}
+.offer .body{padding:18px}
+.stack{font-size:15px}.stack .row{display:flex;justify-content:space-between;gap:10px;padding:7px 0;border-bottom:1px dashed var(--line)}
+.stack .row .v{color:var(--muted);white-space:nowrap}
+.price{font-size:40px;font-weight:900;color:var(--green-d);line-height:1}
+.strike{text-decoration:line-through;color:var(--muted);font-weight:700}
+.ph{outline:2px dashed #c9a227;outline-offset:3px;border-radius:10px;background:#fffdf5;color:#8a6d12;font-size:12.5px;padding:10px 12px;margin:10px 0;font-weight:700}
+.foot{color:var(--muted);font-size:12px;text-align:center;padding:26px 0 40px}
+.check{display:flex;gap:10px;align-items:flex-start;padding:6px 0}.check .k{color:var(--green);font-weight:900}
+</style>
+</head>
+<body>
+
+<div class="bar">✅ Payment confirmed — your download is ready!</div>
+
+<div class="wrap">
+  <div class="center" style="padding-top:18px">
+    <div style="font-size:40px">🎉</div>
+    <h1>You're in. Your first $5,050 starts tonight.</h1>
+    <p class="muted">Your files are ready below. But first — read this one-time offer. You'll never see this price again.</p>
+  </div>
+
+  <!-- ONE-TIME UPSELL -->
+  <div class="offer">
+    <div class="top">
+      <div class="pill">⚡ ONE-TIME OFFER — this page only</div>
+      <h2 style="color:#3b2f06;margin-top:10px">Don't stop at one challenge. Never run out of ways to save.</h2>
+      <div style="font-size:14px">Add the <b>Savings Mega Vault</b> — 200+ themed challenges for every goal, holiday and season.</div>
+    </div>
+    <div class="body">
+      <p>You just grabbed the game that gets you to your first $5,050. Here's the problem: once you finish, most people fall off — because they run out of fresh challenges. The <b>Savings Mega Vault</b> makes sure that never happens.</p>
+      <div class="card" style="margin:12px 0">
+        <div class="check"><span class="k">✓</span><div><b>200+ savings challenges</b> — Christmas, vacation, car, house, baby, debt payoff, no-spend, and dozens more</div></div>
+        <div class="check"><span class="k">✓</span><div><b>A full-year savings calendar</b> so you always know your next move</div></div>
+        <div class="check"><span class="k">✓</span><div><b>Weekly, bi-weekly &amp; monthly</b> versions of everything</div></div>
+        <div class="check"><span class="k">✓</span><div><b>New challenges added free, forever</b></div></div>
+      </div>
+      <div class="ph">BONUS/DELIVERY NOTE: the Mega Vault contents must actually exist in delivery before launch. Produce/license it, or swap for what you can deliver.</div>
+      <div class="center" style="margin:14px 0 8px">
+        <div class="muted">Sold separately for <span class="strike">$<span data-upA>67</span></span>. Right now, one time only:</div>
+        <div class="price">$<span data-up>27</span></div>
+      </div>
+      <a class="btn" data-upcta href="https://buy.stripe.com/14A5kD69N9mR2j56glfMA0Q">✅ YES — Add the Mega Vault for $<span data-up>27</span> <small>Add to my order · instant access</small></a>
+      <a class="btn ghost" data-access href="#REPLACE_ACCESS_URL" style="margin-top:10px">No thanks — just take me to my files</a>
+    </div>
+  </div>
+
+  <!-- ACCESS -->
+  <div class="card center">
+    <h2>Get your 100 Envelope Challenge files</h2>
+    <p class="muted">Download everything and print your first sheet tonight.</p>
+    <a class="btn" data-access href="#REPLACE_ACCESS_URL">⬇️ Access my download</a>
+  </div>
+
+  <div class="foot">
+    <b data-brand>Penny Path</b> · A confirmation + download link was also sent to your email.<br>
+    Need help? Contact support.
+  </div>
+</div>
+
+<script>
+(function(){
+  var T=window.TY;
+  document.querySelectorAll('[data-brand]').forEach(function(e){e.textContent=T.brand});
+  document.querySelectorAll('[data-up]').forEach(function(e){e.textContent=T.priceUpsell});
+  document.querySelectorAll('[data-upA]').forEach(function(e){e.textContent=T.priceUpsellAnchor});
+  document.querySelectorAll('a[data-access]').forEach(function(a){ if(T.accessUrl && T.accessUrl.indexOf("REPLACE")<0) a.setAttribute('href',T.accessUrl); });
+  document.querySelectorAll('a[data-upcta]').forEach(function(a){
+    if(T.upsellStripe && T.upsellStripe.indexOf("REPLACE")<0) a.setAttribute('href',T.upsellStripe);
+    a.addEventListener('click',function(){ try{ if(window.fbq) fbq('track','InitiateCheckout',{value:parseInt(T.priceUpsell),currency:'USD',content_name:'mega_vault_upsell'}); }catch(e){} try{ if(window.clarity) window.clarity('event','upsell_click'); }catch(e){} });
+  });
+})();
+</script>
+</body>
+</html>
